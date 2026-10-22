@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Registration</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Student form </h1>
+  </header>
+
+  <main>
+    <section>
+      <h2>Registration</h2>
+      <form action="">
+        <div>
+          <label for="Name">Name</label>
+          <input type="text" id="Name" name="fullname" required>
+        </div>
+        <div>
+          <label for="matric">Matric Number</label>
+          <input type="text" id="matric" name="matric" required>
+        </div>
+        <div>
+          <label for="department">Department</label>
+          <select name="department" id="department">
+            <option value="" disabled selected>Select your department</option>
+            <option value="computer-science">Computer Science</option>
+            <option value="information-technology">Information Technology</option>
+            <option value="information-communication-technology">Information Communication Technology</option>
+            <option value="information-systems">Information Systems</option>
+            <option value="software-development">Software Development</option>
+            <option value="cyber-security">Cyber Security</option>
+            <option value="data-science">Data Science</option>
+          </select>
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" name="phone" placeholder="08012345678" required>
+        </div>
+        <fieldset>
+          <legend>Gender</legend>
+          <div>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+          </div>
+          <div>
+            <input type="radio" id="female" name="gender" value="female" required>
+            <label for="female">Female</label>
+          </div>
+        </fieldset>
+        <div>
+          <label for="programme">Programme</label>
+          <select name="programme" id="programme">
+            <option value="" disabled selected>Choose a Programme</option>
+            <option value="full-time">Full time</option>
+            <option value="weekday">Weekday</option>
+            <option value="weekend">weekend</option>
+          </select>
+        </div>
+        <button>submit</button>
+      </form>
+    </section>
+  </main>
+
+  <footer></footer>
+</body>
+
+</html>

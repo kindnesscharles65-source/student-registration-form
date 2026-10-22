@@ -1,0 +1,102 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+header {
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+
+h1 {
+  margin: 0;
+}
+
+section {
+  max-width: 420px;
+  margin: 20px auto;
+  padding: 30px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  text-align: center;
+  margin-top: 0;
+  color: #333;
+}
+
+form div {
+margin-bottom: 16px;
+}
+
+label{
+  display: block;
+  margin-bottom: 6px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #999;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+input:focus,
+select:focus {
+  outline: none;
+  border-color: #667eea;
+}
+fieldset {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px 12px;
+  margin: 0 0 16px;
+}
+
+fieldset div {
+  display: inline-block;
+  margin: 0 20px 0 0;
+}
+
+fieldset label {
+  display: inline;
+  font-weight: normal;
+}
+
+button {
+width: 100%;
+padding: 12px;
+background: linear-gradient(#8fa4f5, #4a5bc0);
+color: rgb(255, 255, 255);
+border: none;
+border-radius: 8px;
+font-size: 16px;
+cursor: pointer;
+}
+
+legend{
+  font-size: 14px;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #5568d3;
+}
+
+footer {
+  text-align: center;
+  color: beige;
+  padding: 20px;
+  font-size: 14px;
+}
